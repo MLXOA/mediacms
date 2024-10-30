@@ -304,11 +304,6 @@ def tags(request):
     return render(request, "cms/tags.html", context)
 
 
-def tos(request):
-    """Terms of service view"""
-
-    context = {}
-    return render(request, "cms/tos.html", context)
 
 
 def upload_media(request):
