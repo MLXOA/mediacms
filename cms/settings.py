@@ -23,7 +23,7 @@ CAN_COMMENT = "all"
 PORTAL_WORKFLOW = "public"
 
 # valid values: 'light', 'dark'.
-DEFAULT_THEME = "light"
+DEFAULT_THEME = "dark"
 
 
 # These are passed on every request
@@ -539,3 +539,5 @@ SPRITE_NUM_SECS = 10
 # number of seconds for sprite image.
 # If you plan to change this, you must also follow the instructions on admin_docs.md
 # to change the equivalent value in ./frontend/src/static/js/components/media-viewer/VideoViewer/index.js and then re-build frontend
+
+SIGNUP_CLOSED_REASON = "We are sorry, but the sign up is currently closed."
